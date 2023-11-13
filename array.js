@@ -4,7 +4,8 @@ let resultlist = document.getElementById("results")
 
 function reversedarray(array){
     return array.reverse()
-}("reversed:",reversedarray(arr))
+}
+("reversed:",reversedarray(arr))
 
 
 
@@ -18,7 +19,8 @@ function maximum(array){
 
 
 function OddNumbers(array){
-    return array.filter()
+    
+    return array.filter(x => x %2 !==0)
 
 }
 OddNumbers(arr)
@@ -27,8 +29,9 @@ const arrayfiltered =arr.OddNumbers()
 
 
 function positriveNumbers(array){
-    return array.reduce((add, num ) => (num == 0 ? sum + num: sum),0)
+    return array.reduce()
 }
+positriveNumbers.apply(arr)
  ("positve numbers:",positriveNumbers(arr)  )
 
 
